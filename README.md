@@ -5,7 +5,7 @@ party door intercom system conformig to the formerly popular 4+N standard.
 
 ## Hardware
 * Raspberry Pi 2B+
-* Salvaged cheap Sennheiser headset electronics (or equivalent)
+* Salvaged cheap Sennheiser USB headset electronics (or equivalent)
 * Salvaged 12V external HDD power supply (wall wart or whatever)
 * Interface electronics
 * Eurocard size perfboard
