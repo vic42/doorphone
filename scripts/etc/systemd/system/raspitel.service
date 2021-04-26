@@ -1,0 +1,16 @@
+[Unit]
+Description=SIP door phone service
+DefaultDependencies=no
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=pi
+Group=pi
+ExecStart=/home/pi/start_raspitel.sh
+TimeoutStartSec=0
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
